@@ -1,5 +1,12 @@
 ---
 layout: default
-title: About
+title: Thang Pham - About
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+
+<section id="about" class="bgWhite ofsInBottom">
+  <div class="about">
+    {% include session/who-am-i.html %}
+
+    {% include session/experience.html %}
+  </div>
+</section>
