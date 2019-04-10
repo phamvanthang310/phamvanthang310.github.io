@@ -1,0 +1,31 @@
+<!--Main title-->
+{% include component/main-title.html title="skills" %}
+
+<!--Content-->
+<div class="content">
+  {% for item in site.data.skill %}
+  <!--Block content-->
+  <div class="block-content {% if forloop.last != true %} margBMedium {% endif %}">
+    <!--Skill design-->
+    <div class="skill dev">
+      <!--Row-->
+      <div class="row">
+        <div class="vc">
+          <div class="col-md-12">
+            <h3 class="primary">{{item.name}}</h3>
+            <ul class="skills-list">
+              {% for skill in item.skills %}
+              <li><h4>{{skill}}</h4></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--End row-->
+    </div>
+    <!--End skill design-->
+  </div>
+  <!--End block content-->
+  {% endfor %}
+</div>
+<!--End content-->

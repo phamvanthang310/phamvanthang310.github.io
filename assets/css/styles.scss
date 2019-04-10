@@ -7,3 +7,16 @@
   }
 }
 
+.skill {
+  .skills-list {
+    list-style-type: circle;
+
+    h4 {
+      text-transform: none;
+    }
+  }
+
+  .primary {
+    font-weight: bold;
+  }
+}
