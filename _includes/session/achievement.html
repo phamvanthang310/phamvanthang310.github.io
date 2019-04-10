@@ -1,0 +1,39 @@
+<!--Main title-->
+{% include component/main-title.html title="achievement / contribution" %}
+
+<!--Content-->
+<div class="content">
+  <!--Block content-->
+  <div class="block-content ">
+    <!--Services-->
+    <div class="achievement">
+      <!--Row-->
+      <div class="row ">
+        <!--Block-->
+        <div class="block service tCenter">
+          {% for item in site.data.achievement %}
+          <div class="col-md-4">
+            <a href="{{item.ref}}"
+               target="_blank">
+              <div class="ico">
+                <i class="{{item.icon}}"></i>
+              </div>
+
+              <div class="det">
+                <h3>{{item.title}}</h3>
+                <h4>{{item.subTitle}}</h4>
+                <p>{{item.date}}</p>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+        <!--End block-->
+      </div>
+      <!--End row-->
+    </div>
+    <!--End servcices-->
+  </div>
+  <!--End block content-->
+</div>
+<!--End content-->

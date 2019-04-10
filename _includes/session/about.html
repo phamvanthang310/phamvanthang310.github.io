@@ -1,0 +1,27 @@
+<!--Main title-->
+{% include component/main-title.html title="about me" %}
+
+{% assign info = site.data.about %}
+<!--Content-->
+<div class="content">
+
+  <!--Block content-->
+  <div class="block-content margBSmall">
+
+    <div class=" profile margBSmall">
+      <h1>{{info.name}}</h1>
+      <h3>{{info.jobTitle}}</h3>
+    </div>
+
+    <!--Row-->
+    <div class="row">
+      <div class="col-md-12">
+        <p>{{info.summary}}</p>
+      </div>
+    </div>
+    <!--End row-->
+
+  </div>
+  <!--End block content-->
+
+</div>

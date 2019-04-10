@@ -1,0 +1,22 @@
+[
+  {
+    "name": "about",
+    "link": "/",
+    "icon": "icon-user"
+  },
+  {
+    "name": "portfolio",
+    "link": "#",
+    "icon": "icon-camera"
+  },
+  {
+    "name": "Blog",
+    "link": "#",
+    "icon": "icon-chat"
+  },
+  {
+    "name": "Contact",
+    "link": "#",
+    "icon": "icon-phone"
+  }
+]

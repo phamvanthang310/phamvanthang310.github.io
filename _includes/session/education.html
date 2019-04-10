@@ -1,30 +1,26 @@
 <!--Main title-->
-{% include component/main-title.html title="experience" %}
+{% include component/main-title.html title="education" %}
 
 <!--Content-->
 <div class="content">
   <!--Block content-->
-  <div class="block-content ">
+  <div class="block-content">
     <!--Timeline-->
-    <div class="timeline experience">
+    <div class="timeline education">
       <!--Row-->
       <div class="row ">
         <div class="col-md-12">
+
           <!--Experience holder-->
           <div class="exp-holder margTop">
 
-            {% for item in site.data.experience %}
+            {% for item in site.data.education %}
             <!--Experience-->
             <div class="exp">
               <div class="hgroup">
-                <h4>{{item.employer}}</h4>
+                <h4>{{item.school}}</h4>
                 <h3>{{item.title}}</h3>
-                <h6><i class="icon-calendar"></i>
-                  {{item.from | capitalize}} -
-                  <span {% if item.to== 'present' %} class="current" {% endif %}>
-                  {{item.to | capitalize}}
-                  </span>
-                </h6>
+                <h6><i class="icon-calendar"></i>{{item.from | capitalize}} - {{item.to | capitalize}}</h6>
               </div>
               <p>{{item.description}}</p>
             </div>
@@ -32,8 +28,13 @@
             {% endfor %}
 
           </div>
+          <!--End experience holder-->
         </div>
       </div>
+      <!--End row-->
     </div>
+    <!--End timeline-->
   </div>
+  <!--End block content-->
 </div>
+<!--End content-->

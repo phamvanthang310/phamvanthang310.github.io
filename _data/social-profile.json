@@ -1,0 +1,22 @@
+[
+  {
+    "name": "email",
+    "link": "mailto:phamvanthang310@gmail.com",
+    "icon": "icon-mail"
+  },
+  {
+    "name": "mobile phone",
+    "link": "tel:+84355792762",
+    "icon": "icon-phone"
+  },
+  {
+    "name": "github profile",
+    "link": "https://github.com/phamvanthang310",
+    "icon": "icon-github"
+  },
+  {
+    "name": "linkedin profile",
+    "link": "https://www.linkedin.com/in/thang-pham-68282aaa",
+    "icon": "icon-linkedin"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Oracle Certified Associate",
+    "subTitle": "Java SE 8 Programmer",
+    "date": "September 15, 2016",
+    "icon": "icon-trophy",
+    "ref": "https://www.youracclaim.com/badges/9b3c5f78-c1e8-4cc7-8d2d-09b83ec48df4/linked_in_profile"
+  },
+  {
+    "title": "Oracle Certified Professional",
+    "subTitle": "Java SE 8 Programmer",
+    "date": "October 02, 2017",
+    "icon": "icon-trophy",
+    "ref": "https://www.youracclaim.com/badges/dfd998c6-3121-43d4-9f0b-4c0fff06c61f/linked_in_profile"
+  },
+  {
+    "title": "DEVDAY Da Nang 2019 - Speaker",
+    "subTitle": "Micro Frontends Architecture",
+    "date": "April 06, 2019",
+    "icon": "icon-megaphone",
+    "ref": "https://devday.org/#speakers"
+  }
+]
