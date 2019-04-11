@@ -1,0 +1,73 @@
+[
+  {
+    "employer": "KMS Technology",
+    "title": "Thermo Fisher Scientific - Platform for Science (PFS)",
+    "from": "03/2018",
+    "to": "Present",
+    "description": "The Thermo Fisher™ Platform for Science™ software (PFS) is the underlying data management infrastructure designed to support workflows across your scientific organization. This flexible, extensible, cloud-based platform helps you easily collect, store, access, share and use your scientific data.\n",
+    "industry": "Science",
+    "teamSize": "4",
+    "roles": [
+      "Team Leader",
+      "Technical Leader"
+    ],
+    "skillSet": [
+      "Java8, Tomcat 8, Spring Framework, JDBC",
+      "Oracle DB",
+      "ReactJS, KendoUI"
+    ],
+    "responsibilities": [
+      "Provide technical approach and solution for localization of the current system.",
+      "Implement core feature, code review.",
+      "Implement a supporting tool for text replacing and translating.",
+      "Writing up a proposal for Micro Frontends Architecture."
+    ]
+  },
+  {
+    "employer": "KMS Technology",
+    "title": "LexisNexis - Master Audit System (MAS)",
+    "from": "10/2016",
+    "to": "02/2018",
+    "description": "The purpose of the Master Audit & Data Stewardship System is to support all existing audit capabilities for Enclarity and Health Management System within a single tool. The tool also contains various enhancements to existing capabilities to improve efficiency, conform to LexisNexis application standards, and provide support for Master Data Management customers.",
+    "industry": "Health Care",
+    "teamSize": "Around 10",
+    "roles": [
+      "Team member - Developer"
+    ],
+    "skillSet": [
+      "Java, Spring Framework, Spring Boot, Spring Could, Microservices, ThymeLeaf template engine.",
+      "Javascript, Lodash, HTML, CSS",
+      "SQL",
+      "Jenkins"
+    ],
+    "responsibilities": [
+      "Implement new feature, code review.",
+      "Ensure the positive code quality and application performance.",
+      "Provide technical approach and solution for issues/tasks.",
+      "Maintain the offshore develop environment.",
+      "Train new team member and transfer knowledge about MAS product."
+    ]
+  },
+  {
+    "employer": "KMS Technology",
+    "title": "LexisNexis - Provider Data Validation (PDV)",
+    "from": "05/2016",
+    "to": "09/2016",
+    "description": "Provider Search is a user interface that allows users to search for practitioners in the MasterFile. Built on the Single User Interface framework",
+    "industry": "Health Care",
+    "teamSize": "4",
+    "roles": [
+      "Team member - Developer"
+    ],
+    "skillSet": [
+      "Java, Spring Framework, Spring Boot, Spring Could, Microservices, ThymeLeaf template engine.",
+      "Javascript, Lodash, HTML, CSS",
+      "MySql",
+      "Jenkins"
+    ],
+    "responsibilities": [
+      "Implement new features.",
+      "Ensure the positive code quality and application performance."
+    ]
+  }
+]

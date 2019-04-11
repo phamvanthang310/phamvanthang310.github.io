@@ -5,9 +5,9 @@
     "icon": "icon-user"
   },
   {
-    "name": "portfolio",
-    "link": "#",
-    "icon": "icon-camera"
+    "name": "relevant project",
+    "link": "/relevant-project.html",
+    "icon": "icon-folder"
   },
   {
     "name": "Blog",

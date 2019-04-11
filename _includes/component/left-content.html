@@ -11,7 +11,8 @@
     <nav id="main-nav" class="main-nav clearfix tabbed">
       <ul>
         {% for item in site.data.nagivation %}
-        <li><a href="{{item.link}}"><i class="{{item.icon}}"></i>{{item.name}}</a></li>
+        <li><a href="{{item.link}}" {% if page.url== item.link %} class="active" {% endif %}><i
+          class="{{item.icon}}"></i>{{item.name}}</a></li>
         {% endfor %}
       </ul>
     </nav>

@@ -20,3 +20,30 @@
     font-weight: bold;
   }
 }
+
+// Project
+
+.relevant-project {
+  color: #666666;
+
+  .project-employer {
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .project-name {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .table-header {
+    color: black;
+    font-weight: bold;
+    min-width: 150px
+  }
+
+  .list {
+    list-style-type: circle;
+  }
+}

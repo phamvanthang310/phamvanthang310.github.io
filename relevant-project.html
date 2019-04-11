@@ -1,0 +1,21 @@
+---
+layout: default
+title: Thang Pham - Relevant Project
+---
+
+<section class="bgWhite ofsInBottom">
+  <div class="">
+    {% include component/main-title.html title="Relevant Project" %}
+
+    <div class="content">
+      {% for item in site.data.relevant-project %}
+      {% include component/project.html project=item %}
+
+      {% if forloop.last != true %}
+      {% include component/divider.html %}
+      {% endif %}
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
