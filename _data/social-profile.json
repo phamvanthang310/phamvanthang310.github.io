@@ -5,11 +5,6 @@
     "icon": "icon-mail"
   },
   {
-    "name": "mobile phone",
-    "link": "tel:+84355792762",
-    "icon": "icon-phone"
-  },
-  {
     "name": "github profile",
     "link": "https://github.com/phamvanthang310",
     "icon": "icon-github"

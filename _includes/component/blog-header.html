@@ -1,0 +1,29 @@
+{% assign post=include.post %}
+<div class="post-title">
+  <h1>{{post.title}}</h1>
+  <span class="meta-date">{{post.date | date_to_string}}</span>
+</div>
+<ul class="post-meta">
+  <li>
+    <i class="icon-user"></i>
+    <span>Post by
+        <a href="#">{{post.author}}</a>
+     </span>
+  </li>
+  <li>
+    <i class="icon-layout"></i>
+    <span>Tagged in
+      {% for tag in post.tags %}
+       <a href="#">{{tag | capitalize}}</a>
+       {% if forloop.last != true %}, {% endif %}
+      {% endfor %}
+     </span>
+  </li>
+
+  <li>
+    <i class="icon-comment"></i>
+    <span>
+       <a href="{{post.url}}#disqus_thread"></a>
+    </span>
+  </li>
+</ul>

@@ -1,0 +1,58 @@
+---
+layout: blog
+---
+
+<section id="blog" class="bgWhite ofsInBottom">
+  <!--Portfolio -->
+  <div class="blog">
+    <!--Main title-->
+    {% include component/main-title.html title='the blog' %}
+    <!--End main title-->
+    <!--Content-->
+    <div class="content single">
+      <!--Block content-->
+      <div class="block-content ">
+        <!--Works-->
+        <div class="blog">
+          <!--Row-->
+          <div class="row">
+            <!--Blog posts-->
+            <div class="block-posts clearfix">
+              <!--Block post-->
+              <div class="block-post single clearfix">
+                <div class="col-md-12">
+                  {% include component/blog-header.html post=page %}
+                  <h1>{{site.title}}</h1>
+                  <hr>
+                  <div id="markdown-body">
+                    {{content}}
+                  </div>
+                </div>
+              </div>
+              <!--End block post-->
+            </div>
+            <!--End blog posts-->
+          </div>
+          <!--End row-->
+        </div>
+        <!--End blog-->
+      </div>
+      <!--End block content-->
+    </div>
+    <!--End content-->
+    <!--Main title-->
+    {% include component/main-title.html title='Comments' %}
+    <!--End main title-->
+
+    <!--Content-->
+    <div class="content">
+      <!--Block content-->
+      <div class="block-content ">
+        <div id="disqus_thread"></div>
+      </div>
+      <!--End block content-->
+    </div>
+    <!--End content-->
+  </div>
+  <!--End blog-->
+</section>

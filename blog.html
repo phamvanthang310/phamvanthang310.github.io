@@ -1,0 +1,67 @@
+---
+layout: blog
+title: Thang Pham - Blog
+---
+<section id="blog" class="bgWhite ofsInBottom">
+  <div class="blog">
+    {% include component/main-title.html title='Latest Blog' %}
+
+    <!--Content-->
+    <div class="content">
+      <!--Block content-->
+      <div class="block-content ">
+        <!--Works-->
+        <div class="blog">
+          <!--Row-->
+          <div class="row">
+            {% for post in site.posts %}
+
+            <!--Blog posts-->
+            <div class="block-posts ">
+              <!--Block post-->
+              <div class="block-post ">
+                <div class="col-md-12">
+                  {% include component/blog-header.html post=post %}
+                  <hr>
+                  <p>{{post.excerpt}}</p>
+                  <a href="{{post.url}}" class="but brd">Read More</a>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <!--Divider-->
+                <div class="divider-m tCenter margTSmall margBottom clearfix">
+                  <div class="col-md-12">
+                    <div class="zigzag medium clearfix " data-svg-drawing="yes">
+                      <svg xml:space="preserve" viewBox="0 0 69.172 14.975" width="45" height="5" y="0px"
+                           x="0px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                      <path d="M1.357,12.26 10.807,2.81 20.328,12.332
+                        29.781,2.879 39.223,12.321 48.754,2.79 58.286,12.321 67.815,2.793 "
+                            style="stroke-dasharray: 93.9851, 93.9851; stroke-dashoffset: 0;"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <!--End divider-->
+              </div>
+              <!--End block post-->
+            </div>
+            <!--End blog posts-->
+
+            {% if forloop.last != true %}
+            {% include component/divider.html %}
+            {% endif %}
+
+            {% endfor %}
+          </div>
+          <!--End row-->
+
+          <!-- TODO: pagination component goes here -->
+        </div>
+        <!--End blog-->
+      </div>
+      <!--End block content-->
+    </div>
+    <!--End content-->
+  </div>
+</section>
