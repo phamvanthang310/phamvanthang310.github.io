@@ -6,17 +6,12 @@
   },
   {
     "name": "relevant project",
-    "link": "/relevant-project.html",
+    "link": "/projects",
     "icon": "icon-folder"
   },
   {
     "name": "Blog",
-    "link": "/blog.html",
+    "link": "/blog",
     "icon": "icon-chat"
-  },
-  {
-    "name": "Contact",
-    "link": "#",
-    "icon": "icon-phone"
   }
 ]
