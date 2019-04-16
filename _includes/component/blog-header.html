@@ -1,9 +1,9 @@
 {% assign post=include.post %}
 
-<div class="post-title">
+<a class="post-title" href="{{post.url}}">
   <h1>{{post.title}}</h1>
   <span class="meta-date">{{post.date | date_to_string}}</span>
-</div>
+</a>
 <ul class="post-meta">
   <li>
     <i class="icon-user"></i>

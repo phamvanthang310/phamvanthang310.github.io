@@ -4,4 +4,6 @@ layout: home
 
 {{content}}
 
+{% if jekyll.environment == "production" %}
 {% include component/disqus.html %}
+{% endif %}

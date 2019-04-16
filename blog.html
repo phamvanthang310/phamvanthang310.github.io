@@ -24,8 +24,10 @@ permalink: /blog
                 <div class="col-md-12">
                   {% include component/blog-header.html post=post %}
                   <hr>
-                  <p>{{post.excerpt}}</p>
-                  <a href="{{post.url}}" class="but brd">Read More</a>
+                  <div class="markdown-body">
+                    {{post.excerpt}}
+                  </div>
+                  <a href="{{post.url}}" class="but brd read-more">Read More</a>
                 </div>
 
                 <div class="clearfix"></div>
