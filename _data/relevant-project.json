@@ -1,6 +1,29 @@
 [
   {
     "employer": "KMS Technology",
+    "title": "KMS Internal Project - Eventify",
+    "from": "05/2019",
+    "to": "Present",
+    "description": "Eventify is an internal project of KMS, which is implemented intended to host and manage KMS internal and external event.",
+    "industry": "Management",
+    "teamSize": "5",
+    "roles": [
+      "Frontend Technical Leader"
+    ],
+    "skillSet": [
+      "Ant Design, ReactJS, TypeScript, Enzyme, Jest.",
+      "Redux Observable, RxJS.",
+      "ES6, Babel, Webpack.",
+      "TSLint, CommitLint."
+    ],
+    "responsibilities": [
+      "Initialize project from scratch, define project structure and common modules.",
+      "Provide technical approach.",
+      "Ensure code quality through code review."
+    ]
+  },
+  {
+    "employer": "KMS Technology",
     "title": "Thermo Fisher Scientific - Platform for Science (PFS)",
     "from": "03/2018",
     "to": "Present",

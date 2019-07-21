@@ -3,23 +3,24 @@
     "type": "primary",
     "name": "frontend",
     "skills": [
-      "Proficient in JavaScript (ES5, ES6), HTML and CSS",
-      "Proficient in CSS preprocessor: SCSS",
-      "Deep understanding and experiences with Angular Framework, TypeScript, Redux, rxjs, ReactJS",
-      "Familiar with module bundler such as webpack",
-      "Familiar with writing unit tests, e2e tests using: Mocha, Karma, Protractor.",
+      "Proficient in JavaScript (ES6), HTML and CSS, and its ecosystem of tool and libraries (via npm, yarn).",
+      "Proficient in CSS preprocessor: SCSS.",
+      "Deep understanding and experiences with Angular, ReactJS, TypeScript, Redux, RxJS.",
+      "Familiar with module bundler such as webpack.",
+      "Familiar with writing unit tests, e2e tests using: Mocha, Karma, Protractor, Enzyme, Jest.",
       "Good understanding of CSS methodologies: BEM, SMACSS.",
       "Experiences in design and implement a Microfrontends Architecture.",
-      "Good at design a scalable, high-performance web application: lazy loading, caching, CDN, Server Side Rendering, Progressive Web App, resource optimization mechanism."
+      "Good at design a scalable, high-performance web application: lazy loading, caching, CDN, Server Side Rendering, Progressive Web App, resource optimization mechanism"
     ]
   },
   {
     "type": "primary",
     "name": "backend",
     "skills": [
-      "Proficient in Java 8 and Spring framework, with a good knowledge of its ecosystems.",
-      "Proficient with SQL and data management system (MySQL, MSSQL, …)",
-      "Good understanding of object-oriented programming.",
+      "Proficient with SQL and data management system (MySQL).",
+      "Experiences in NodeJS, frameworks used: ExpressJS, SailsJS.",
+      "Experiences in Java 8 and Spring Framework, with a good knowledge of its ecosystems.",
+      "Good understanding of Object-Oriented Programming (OOP).",
       "Familiar with popular design and architectural patterns.",
       "Familiar with concepts of MVC, JDBC, and RESTful.",
       "Familiar with Maven and its common plugins."
