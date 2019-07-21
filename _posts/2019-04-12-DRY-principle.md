@@ -6,7 +6,9 @@ categories: [tips]
 tags: [principle]
 ---
 
-![DRY Principle](/assets/image/post/2019-04-12-dry-principle.png)
+<p align="center">
+  <img  src="/assets/image/post/2019-04-12-DRY-principle/banner.png"/>
+</p>
 
 DRY stands for "Don't Repeat Yourself", one of a basic principle of software development aimed at reducing the data repetition and snipped code duplication. The principle recommends software engineer should do something one and only one. The concept is credited to Andrew Hunt and David Thomas, authors of "The Pragmatic Programmer". In The Pragmatic Programmer, DRY is defined as “every piece of knowledge must have a single, unambiguous, authoritative representation within a system”.
 

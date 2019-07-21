@@ -7,7 +7,7 @@ tags: [software design]
 ---
 
 <p align="center">
-  <img  src="/assets/image/post/Domain-Driven-Design_cover.jpg"/>
+  <img  src="/assets/image/post/2019-04-19-introduction-to-DDD/banner.jpg"/>
 </p>
 
 > Design is not just what it looks like and feels like. Design is how it works.
@@ -58,7 +58,7 @@ There are two primary pillars:
 #### Bounded Context
 
 <p align="center">
-  <img  src="/assets/image/post/ddd-bounded-context.png"/>
+  <img  src="/assets/image/post/2019-04-19-introduction-to-DDD/ddd-bounded-context.png"/>
 </p>
 
 For now, think of a Bounded Context as a conceptual boundary around a whole application or finite system. The reason for this boundary is to highlight that every use of a given domain term, phrase, or sentence-the Ubiquitous Language-inside the boundary has a specific contextual meaning. Any use of the term outside that boundary could, and probably does, mean something different.
@@ -66,7 +66,7 @@ For now, think of a Bounded Context as a conceptual boundary around a whole appl
 #### Ubiquitous Language
 
 <p align="center">
-  <img  src="/assets/image/post/ddd-ubuquitous-language.png"/>
+  <img  src="/assets/image/post/2019-04-19-introduction-to-DDD/ddd-ubuquitous-language.png"/>
 </p>
 
 The Ubiquitous Language is a shared team language. It’s shared by domain experts and developers alike. In fact, it’s shared by everyone on the project team. No matter your role on the team, since you are on the team you use the Ubiquitous Language of the project. The Ubiquitous Language is a shared language developed by the team-a team composed of both domain experts and software developers.
@@ -103,6 +103,8 @@ As we implement DDD, we will encounter challenges. There are several common chal
 * Involving domain experts at the outset and continuously with the project
 * Changing the way developers think about solutions in their domain
 
+### Slide Deck
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQShE03YhCFQU6KnTSLjRAv366Xme_oxr8OipNCuP8eu1nYVRheUq-aQhyZZutlH53bScbKSmBxje4b/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 ### References
 * [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software-ebook/dp/B00794TAUG)
-
