@@ -1,9 +1,16 @@
 [
   {
+    "employer": "Wizeline",
+    "title": "software engineer",
+    "from": "October 2019",
+    "to": "present",
+    "description": "I joined Wizeline as Frontend Software Engineer"
+  },
+  {
     "employer": "KMS Technology Inc., Vietnam",
     "title": "senior software engineer",
     "from": "October 2017",
-    "to": "present",
+    "to": "September 2019",
     "description": "Currently, I am a Full-stack Developer and working as a technical leader of the team. I propose the technical solution, raw estimation and contribute to the setup architecture process of the project. Besides, I am an advisor, trainer and build up a Frontend training plan for the company."
   },
   {
